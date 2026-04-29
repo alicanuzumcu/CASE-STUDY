@@ -68,26 +68,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-`requirements.txt` aşağıdaki paketleri içermelidir:
-
-```
-fastapi
-uvicorn
-langgraph
-langchain
-langchain-core
-langchain-community
-langchain-huggingface
-langchain-ollama
-langchain-google-genai
-faiss-cpu
-pdfplumber
-pydantic
-jinja2
-python-multipart
-rank_bm25
-```
-
 ### 4. Ollama kurulumu
 
 [https://ollama.com](https://ollama.com) adresinden Ollama'yı indirip kurun, ardından modeli çekin:
